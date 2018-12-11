@@ -1,0 +1,9 @@
+main:
+  - title: "Posts"
+    url: /posts
+  - title: "About"
+    url: /about
+  - title: "Search"
+    url: /search
+  - title: "Tags"
+    url: /tags
