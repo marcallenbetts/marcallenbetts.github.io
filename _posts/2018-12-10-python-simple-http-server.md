@@ -4,7 +4,7 @@ layout: posts
 author_name: Marc
 tags: [python, webserver]
 ---
-This one line is the some total of my knowledge of Python. Unless you count "Python?That's the one that's really picking about spacing, right?"
+This one line is the sum total of my knowledge of Python. Unless you count "Python? That's the one that's really picking about spacing, right?"
 
 A few years back I worked on a system that did web scraping for content. So when testing that we were gathering web pages correctly, it was useful to have a web server up and running. Being generally lazy, I opted for the path of least resistance: use web servers that other people maintained for me.
 
