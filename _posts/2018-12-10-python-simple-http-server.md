@@ -1,6 +1,5 @@
 ---
 title: Python SimpleHTTPServer
-layout: posts
 author_name: Marc
 tags: [python, webserver]
 ---

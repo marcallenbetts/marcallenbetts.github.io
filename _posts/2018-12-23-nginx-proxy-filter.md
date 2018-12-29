@@ -1,6 +1,5 @@
 ---
 title: Using NGINX as a filtering proxy
-layout: posts
 author_name: Marc
 tags:
   - nginx
