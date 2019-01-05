@@ -121,3 +121,6 @@ After using this for a short time, I made a couple of changes:
 * Added a separate route to except query parameters so I could look up users by fields other than `_id`
 
 ### TL;DR
+* `git clone git@github.com:marcallenbetts/simple-mongo-api.git`
+* `npm install`
+* `npm start`
