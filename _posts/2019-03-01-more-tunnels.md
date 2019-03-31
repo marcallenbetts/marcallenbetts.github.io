@@ -21,3 +21,8 @@ and [localtunnel](https://github.com/localtunnel/localtunnel).
 ### TL;DR
 * localtunnel will work in a pinch, but I noticed some slowness when using it
 * serveo doesn't require any installation and tries to re-use the same URL when it reconnects
+
+### Update
+[localhost.run](http://localhost.run/) is also an option.
+
+```ssh -R 80:localhost:8080 ssh.localhost.run```
