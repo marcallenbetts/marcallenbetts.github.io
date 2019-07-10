@@ -1,10 +1,12 @@
 ---
-title: Proxy all the things
+title: Proxy command line processes
 author_name: Marc
 tags:
   - proxy
   - charles proxy
   - postman
+  - newman
+  - command line
 ---
 Anybody who has worked with me for more than five minutes know that I have two 
 basic categories of test tools that I gravitate toward: proxies and command line
