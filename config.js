@@ -1,6 +1,7 @@
 'use strict'
 
 module.exports = {
+  pathPrefix: '/howdoitestthat.com',
   url: 'https://howdoitestthat.com',
   title: 'How Do I Test That?',
   tagline: 'Semi useful test advice',
