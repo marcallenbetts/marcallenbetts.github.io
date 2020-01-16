@@ -22,8 +22,6 @@ const TechTags = props => {
     })
     .sort((a, b) => b[1] - a[1])
 
-  console.log(JSON.stringify(categories.sort((a, b) => b[1] - a[1])))
-
   const tags = categories.map(category => {
     return category[0]
   })
