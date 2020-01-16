@@ -3,7 +3,7 @@
 module.exports = {
   url: 'https://howdoitestthat.com',
   title: 'How Do I Test That?',
-  tagline: 'Semi useful test advice',
+  tagline: 'Semi useful test advicex',
   copyright: '© marcallenbetts, All rights reserved',
   author: {
     name: 'Marc Betts',
