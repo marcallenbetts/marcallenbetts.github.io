@@ -150,7 +150,7 @@ module.exports = {
     },
     {
       tag: 'charlesproxy',
-      tech: 'Charles Proxy',
+      tech: 'CharlesProxy',
       name: 'FaTools',
       size: 20,
       color: 'white'
@@ -199,7 +199,7 @@ module.exports = {
     },
     {
       tag: 'apitesting',
-      tech: 'API Testing',
+      tech: 'APITesting',
       name: 'FaServer',
       size: 20,
       color: 'white'
