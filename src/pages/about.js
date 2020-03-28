@@ -7,7 +7,7 @@ import './index.css'
 import Sidebar from '../components/sidebar/Sidebar'
 import TechTag from '../components/tags/TechTag'
 
-const AboutPage = props => {
+const AboutPage = (props) => {
   return (
     <Layout>
       <SEO title="About" />

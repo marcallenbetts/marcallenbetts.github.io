@@ -8,20 +8,20 @@
     "@emotion/core": "^10.0.27",
     "bootstrap": "^4.4.1",
     "emotion": "^10.0.27",
-    "gatsby": "^2.18.22",
+    "gatsby": "^2.20.8",
     "gatsby-image": "^2.2.38",
     "gatsby-plugin-emotion": "^4.1.21",
     "gatsby-plugin-google-analytics": "^2.1.33",
     "gatsby-plugin-google-fonts": "^1.0.1",
-    "gatsby-plugin-manifest": "^2.2.37",
+    "gatsby-plugin-manifest": "^2.3.3",
     "gatsby-plugin-offline": "^2.2.10",
     "gatsby-plugin-react-helmet": "^3.1.21",
-    "gatsby-plugin-sharp": "^2.3.13",
+    "gatsby-plugin-sharp": "^2.5.3",
     "gatsby-remark-prismjs": "^3.3.30",
     "gatsby-remark-responsive-iframe": "^2.2.31",
     "gatsby-source-filesystem": "^2.1.46",
     "gatsby-transformer-remark": "^2.6.48",
-    "gatsby-transformer-sharp": "^2.3.12",
+    "gatsby-transformer-sharp": "^2.4.3",
     "lodash": "^4.17.15",
     "prismjs": "^1.19.0",
     "prop-types": "^15.7.2",
@@ -34,7 +34,7 @@
   },
   "devDependencies": {
     "gh-pages": "^2.2.0",
-    "prettier": "^1.19.1"
+    "prettier": "^2.0.2"
   },
   "keywords": [
     "gatsby"
