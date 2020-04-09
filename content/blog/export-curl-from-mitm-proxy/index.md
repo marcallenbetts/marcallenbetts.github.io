@@ -20,7 +20,7 @@ After Googling it for a bit, I finally came across how to do it:
 
 It works, but I'm still going to reference my notes I need to remember the 
 exact syntax. Luckily, mitmproxy has [key binding](https://docs.mitmproxy.org/stable/tools-mitmproxy/)
-support. So, by adding the following to `~/.mitmproxykeys.yaml` 
+support. So, by adding the following to `~/.mitmproxy/keys.yaml` 
 I now have a shortcut to copy a curl request from mitmproxy.
 
 
