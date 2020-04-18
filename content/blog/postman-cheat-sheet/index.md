@@ -68,19 +68,23 @@ pm.test('example test', () => {
 ### Scripts
 Send a post request
 ```
-pm.sendRequest({
+pm.sendRequest(
+  {
     url: 'http://testurl',
-    method: 'POST,
+    method: 'POST',
     header: {
-        'Content-Type': 'application/json'
-    }
+      'Content-Type': 'application/json'
+    },
     body: {
-        mode: 'raw',
-        raw: JSON.stringify(someJSON)
-    }, (err, res) =>{
-        console.log((err ? err : res.json());
+      mode: 'raw',
+      raw: JSON.stringify(someJSON)
     }
-});
+  },
+  (err, res) => {
+    console.log(err ? err : res.json())
+  }
+)
+
 ```
 
 Set next request (Note that this uses `postman` object and 
