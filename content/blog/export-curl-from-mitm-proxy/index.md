@@ -1,6 +1,6 @@
 ---
 title: 'export curl from mitmproxy'
-tags: ['mimiproxy', 'proxy', 'cli', 'curl']
+tags: ['mitmproxy', 'proxy', 'cli', 'curl']
 published: true
 date: '2019-07-20'
 ---
