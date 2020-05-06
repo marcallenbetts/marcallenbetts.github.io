@@ -1,5 +1,5 @@
 ---
-title: 'export curl from mitmproxy'
+title: 'Export curl from mitmproxy'
 tags: ['mitmproxy', 'proxy', 'cli', 'curl']
 published: true
 date: '2019-07-20'
