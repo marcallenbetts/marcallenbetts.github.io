@@ -16,6 +16,13 @@ module.exports = {
   },
   labels: [
     {
+      tag: 'web',
+      tech: 'Web',
+      name: 'FaChrome',
+      size: 20,
+      color: 'white'
+    },
+    {
       tag: 'react',
       tech: 'React',
       name: 'DiReact',
