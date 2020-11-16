@@ -40,13 +40,6 @@ var now = moment()
 var tomorrow = moment().add(1, 'day')
 ```
 
-### JWT Token
-
-```
-const jwt = pm.response.json().access_token.split('.')
-console.log(JSON.parse(atob(jwt[1])))
-```
-
 ### Tests
 
 ```
