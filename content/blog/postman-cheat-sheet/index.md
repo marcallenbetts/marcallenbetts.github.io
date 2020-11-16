@@ -6,11 +6,12 @@ date: '2019-06-12'
 ---
 
 [Postman](https://www.getpostman.com/) has been my goto tool for API testing for the past year or so. When
-I hit a wall with using it I turn to [All Things Postman](https://github.com/DannyDainton/All-Things-Postman). 
+I hit a wall with using it I turn to [All Things Postman](https://github.com/DannyDainton/All-Things-Postman).
 But I realized most of what I end up looking for is the basic stuff that covers 90 percent of my
 daily use in one place.
 
 ### Environment Variables
+
 ```
 pm.environment.set('someVariable', someValue)
 pm.environment.get('someVariable')
@@ -18,6 +19,7 @@ pm.environment.unset('someVariable')
 ```
 
 ### Lodash
+
 ```
 //select random item from an array
 _.sample([a, b, c])
@@ -32,12 +34,21 @@ _.times(5, () => {
 ```
 
 ### Moment
+
 ```
 var now = moment()
 var tomorrow = moment().add(1, 'day')
 ```
 
+### JWT Token
+
+```
+const jwt = pm.response.json().access_token.split('.')
+console.log(JSON.parse(atob(jwt[1])))
+```
+
 ### Tests
+
 ```
 pm.test('example test', () => {
     pm.expect(pm.response.code).to.eql(200)
@@ -49,7 +60,7 @@ pm.test('example test', () => {
 
     //verify response value
     pm.expect(response.name).to.eql('Marc')
-    
+
     //verify a date is a valid date
     pm.expect(moment(response.date).isValid()).to.be.true
 
@@ -66,7 +77,9 @@ pm.test('example test', () => {
 ```
 
 ### Scripts
+
 Send a post request
+
 ```
 pm.sendRequest(
   {
@@ -87,19 +100,21 @@ pm.sendRequest(
 
 ```
 
-Set next request (Note that this uses `postman` object and 
+Set next request (Note that this uses `postman` object and
 not `pm` obect)
+
 ```
 postman.setNextRequest('name of request')
 ```
 
 ### Newman
+
 ```
 //run a collection
 newman run my_collection.postman_collection.json
 
 //run with environment file
-newman run my_collection.postman_collection.json 
+newman run my_collection.postman_collection.json
 -e my_environment.postman_environment.json
 
 //run with data file
