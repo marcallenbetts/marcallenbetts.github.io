@@ -36,8 +36,15 @@ _.times(5, () => {
 ### Moment
 
 ```
-var now = moment()
-var tomorrow = moment().add(1, 'day')
+const now = moment()
+const tomorrow = moment().add(1, 'day')
+```
+
+### JWT Token
+
+```
+const jwt = jsonData.access_token.split('.')
+console.log(JSON.parse(atob(jwt[1])))
 ```
 
 ### Tests
@@ -47,7 +54,7 @@ pm.test('example test', () => {
     pm.expect(pm.response.code).to.eql(200)
     pm.expect(pm.response.status).to.eql('OK')
 
-    var response = pm.resonse.json()
+    const response = pm.resonse.json()
 
     if response.length === null throw new ERROR(    )
 
