@@ -64,12 +64,12 @@ const Sidebar = () => {
                 <span className="text-dark d-block py-1">Archive</span>
               </Link>
             </div>
-            {/* <div className="tech-tags mt-4">
+            <div className="tech-tags mt-4">
               <TechTags
                 labels={data.site.siteMetadata.labels}
                 posts={data.allMarkdownRemark.edges}
               />
-            </div> */}
+            </div>
           </div>
         </>
       )}
