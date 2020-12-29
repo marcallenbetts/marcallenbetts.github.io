@@ -28,3 +28,5 @@ And in `app/src/debug/AndroidManifest.xml`, add this:
 ```
 <application android:networkSecurityConfig="@xml/network_security_config" />
 ```
+
+More details at [https://developer.android.com/training/articles/security-config](https://developer.android.com/training/articles/security-config).
