@@ -128,6 +128,13 @@ module.exports = {
       color: 'green'
     },
     {
+      tag: 'ios',
+      tech: 'iOS',
+      name: 'FaApple',
+      size: 20,
+      color: 'white'
+    },
+    {
       tag: 'cli',
       tech: 'cli',
       name: 'DiTerminal',
